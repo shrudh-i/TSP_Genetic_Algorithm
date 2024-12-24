@@ -46,6 +46,17 @@ TSP_Genetic_Algorithm/
 ├── requirements.txt          # List of dependencies
 └── README.md                 # Project documentation
 
+### Output
+![image](https://github.com/user-attachments/assets/3514d201-bb8f-4b17-88f7-7ad9a5b38a21)
+
+### Explanation
+- **Score**: The total distance of the optimized route, in this case, `273.2768870308246` (units depend on your coordinate scaling, e.g., miles or kilometers).
+- **Solution**: A list of locations in the order they are visited in the optimized route. Each entry includes:
+  - **Name**: The name of the location (e.g., "LAX Airport").
+  - **Latitude** and **Longitude**: The geographic coordinates of the location.
+
+This output shows the optimal route calculated by the Genetic Algorithm to solve the Traveling Salesman Problem for the given locations.
+
 ### How It Works
 - Initialization: A population of random tours is generated.
 - Evaluation: The fitness of each tour is calculated based on its total distance.
